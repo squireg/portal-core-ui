@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 
-declare var window: any;
-declare var XPathResult: any;
+declare const window: any;
+declare const XPathResult: any;
+
 /**
  * Constances
  */
